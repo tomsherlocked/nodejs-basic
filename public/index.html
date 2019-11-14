@@ -1,0 +1,39 @@
+<html>
+  <head>
+    <title>Basic node.js file server!</title>
+  </head>
+  <style>
+    body {
+      /* background-color: lightslategray; */
+      font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+        "Lucida Sans", Arial, sans-serif;
+      text-align: center;
+      padding-top: 10%;
+      height: 100vh;
+      background: rgb(26, 242, 245);
+      background: linear-gradient(
+        180deg,
+        rgba(26, 242, 245, 1) 0%,
+        rgba(0, 75, 98, 1) 85%
+      );
+    }
+    a {
+      background: black;
+      color: white;
+      font-style: italic;
+      font-family: "Courier New", Courier, monospace;
+    }
+  </style>
+  <body>
+    <h1>Welcome to OpenShift!</h1>
+    <h2>
+      This app is running *somewhere* on an OpenShift cluster, spread across a
+      pod or 2
+    </h2>
+    <div>
+      Head to
+      <a>&lt;Your App URL&gt;/env-api</a>
+      to see the environment variables being surfaced
+    </div>
+  </body>
+</html>
